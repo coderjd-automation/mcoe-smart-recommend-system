@@ -1,4 +1,4 @@
-# mcoe-smart-recommend-system
+# Mcoe-Smart-Recommend-System
 mcoe-smart-recommend-system
 
 # installation Steps
