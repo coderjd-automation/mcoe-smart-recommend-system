@@ -140,7 +140,6 @@ if choice == "Home":
             # st.write("[Channel >](https://channel.com)")
         with right_column:
             st_lottie(lottie_coding, height=300, key="coding")
-            st.text("Here may be json image will be display")
     # Create a text element and let the reader know the data is loading.
     data_load_state = st.text('System Loaded All The Data You can Begin....')
 
