@@ -2,11 +2,11 @@
 mcoe-smart-recommend-system
 
 # installation Steps
-Step 1: download this repo and goto repo directory \n
-Step 2: run command on terminal \n
-        pip install -r requirement.txt
+<p>Step 1: download this repo and goto repo directory \n
+<p>Step 2: run command on terminal</p>
+<p>        pip install -r requirement.txt</p>
 # to run app
-Step 1: run command on terminal \n
-        streamlit run app.py \n
-Step 2: wait for website loading \n
-Step 3: Enter Product name to find similar products
+<p>Step 1: run command on terminal</p>
+<p>        streamlit run app.py </p>
+<p>Step 2: wait for website loading </p>
+<p>Step 3: Enter Product name to find similar products</p>
