@@ -248,12 +248,6 @@ if choice == "Home":
 
 if choice == "Visualization of Data":
     st.write("Visualization of Data page content")
-    st.dataframe(
-        order = df['Main Category'].value_counts()[:10].index
-        sns.countplot(y='Main Category', data=df, order=order)
-        plt.title("Product count by category")
-        plt.xlabel("Main category")
-        plt.ylabel("Count of products"))
 
 if choice == "About Us":
     st.write("About Us Page")
