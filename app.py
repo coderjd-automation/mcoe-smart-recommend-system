@@ -146,7 +146,7 @@ if choice == "Home":
     def rec_lin(linear=linear):
         st.markdown("<h3 style='text-align: center; color: black;'>What would you like to search for today?</h3>", unsafe_allow_html=True)
         # st.header("What would you like to search for today?")
-        user_input = st.text_input("",placeholder="Enter Product to be search")
+        user_input = st.text_input(label = "Enter Name of Product to be search")
         extracted = process.extract(user_input, choices, limit=1)
         product_name = extracted[0][0]
         
