@@ -240,7 +240,7 @@ if choice == "Home":
         st.markdown(str(round(rupees_value,2)) + "₹")
         st.markdown(f"""<img src="{for_footer_scroll["1st image"].iloc[8]}" alt="Cheetah" width="200" height="200"/>""", unsafe_allow_html=True)
     st.text("")
-    st.markdown("<h1 style='text-align: center; color: Turquoise;'>Visualization of Search Result</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color: #4C5270;'>Visualization of Search Result</h1>", unsafe_allow_html=True)
     # st.head("Visualization of Search Result")
     dddd = heads_for_dataset_graph.set_index(["Selling Price"])
     st.line_chart(dddd)
