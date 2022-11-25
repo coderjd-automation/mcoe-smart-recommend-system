@@ -244,7 +244,7 @@ if choice == "Home":
     # st.head("Visualization of Search Result")
     dddd = heads_for_dataset_graph.set_index(["Selling Price"])
     st.line_chart(dddd)
-    st.text("Line Graph of Product v/s Price")
+    st.markdown("<h3 style='text-align: center; color: #4C5270;'>Line Graph of Product v/s Price</h3>", unsafe_allow_html=True)
 
 if choice == "Visualization of Data":
     st.write("Visualization of Data page content")
