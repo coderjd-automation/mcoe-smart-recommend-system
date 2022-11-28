@@ -49,6 +49,29 @@ td {
   font-family: monospace;
 }
 
+.bordertextt{
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 2px solid rgb(95, 20, 20); /* Gray border */
+  border-radius: 12px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  text-align: center;
+  font-size: 20px;
+  
+}
+
+.imagetext{
+  height: 80px;
+  font-size: 15px;
+}
+
+img {
+  border-radius: 15%;
+}
+
 /* * {
   box-sizing: border-box;
 }
@@ -67,4 +90,16 @@ td {
     display: block;
     width: 100%;
   }
+} */
+
+/* search bar when we use input field as text */
+/* .stButton>button {
+  color: #4F8BF9;
+  border-radius: 50%;
+  height: 3em;
+  width: 3em;
+}
+
+.stTextInput>div>div>input {
+  color: #4F8BF9;
 } */
