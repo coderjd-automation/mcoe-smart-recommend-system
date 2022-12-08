@@ -151,9 +151,7 @@ if choice == "Home":
             st.write("##")
             st.write(
                 """
-                Select the product..!
-                & Explore the Shoppiinggg...! "
-                ☺
+                Search for products, brands and more
                 
                 """
             )
